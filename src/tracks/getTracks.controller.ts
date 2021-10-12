@@ -7,7 +7,7 @@ export class GetTracksController{
     @Get()
     getTracks(){
         const tracks = this.trackService.getTracks();
-        console.log('tracks')
+        console.log('good')
         return tracks;
     }
 
