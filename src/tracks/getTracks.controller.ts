@@ -15,4 +15,9 @@ export class GetTracksController{
     getSearchTracks(@Query('query') query: string){
        return this.trackService.getSearchTracks(query)
     }
+
+    @Get('/articles')
+    getArticles(){
+        return this.trackService.getArticles();
+    }
 }

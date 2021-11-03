@@ -6,13 +6,13 @@ export type TrackDocument = Track & Document;
 @Schema()
 export class Track {
     @Prop()
-    name: string
-    @Prop()
     artist: string
     @Prop()
-    picture: string
-    @Prop()
     audio: string
+    @Prop()
+    name: string
+    @Prop()
+    picture: string
 }
 
 export const TrackSchema = SchemaFactory.createForClass(Track);
