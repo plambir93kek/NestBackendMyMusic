@@ -1,4 +1,4 @@
-## Очень простой backend для моего Пэт-проектра - "MyMusic".
+## Очень простой backend для моего Пэт-проекта - "MyMusic".
 ## Frontend: https://github.com/plambir93kek/MyMusicFrontendReact
 
 ### Стек :
