@@ -8,7 +8,7 @@ import { GetTracksModule } from "./tracks/getTracks.module";
 @Module({
   imports: [ServeStaticModule.forRoot({
     rootPath: path.resolve('./static'),
-  }), GetTracksModule, MongooseModule.forRoot('mongodb+srv://admin:repolka79@cluster0.4ezdr.mongodb.net/music-platform?retryWrites=true&w=majority')]
+  }), GetTracksModule, MongooseModule.forRoot('mongodb+srv://admin:*****@cluster0.4ezdr.mongodb.net/music-platform?retryWrites=true&w=majority')]
 })
 
 export class AppModule{}
